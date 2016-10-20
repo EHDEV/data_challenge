@@ -31,6 +31,7 @@ def plot_asofyear(data, group_col, kind='area', top_ten=True):
     # Calculating Percentage change year to year
     cols = ['Loans_Volume_(000)', 'Median_(000,000)', 'Total_Amount_(000,000)']
 
+
     fig, axes = plt.subplots(2, 2, figsize=(15, 10))
     axes = axes.reshape(4)
     sns.set_style("whitegrid")

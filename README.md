@@ -21,7 +21,7 @@ The data for this project came from the Home Mortgage Disclosure Act reporting
 ## Code Organization
 
 
--- data_challenge
++ data_challenge
    - data           
    - notebooks         
    - reports
