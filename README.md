@@ -28,7 +28,6 @@ The data for this project came from the Home Mortgage Disclosure Act reporting
         - data_quality
         - files.csv
         - analysis.html 
-    
     - src
         - data_load_transform.py
         - data_quality.py
@@ -37,6 +36,7 @@ The data for this project came from the Home Mortgage Disclosure Act reporting
     - README.md
     - requirements.txt
     - environment.yml
+   
     
 ## Getting Started
 
