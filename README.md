@@ -175,7 +175,7 @@ Using pip environment can be setup as follows,
 
 
 
-#### Data Munging
+### Data Munging
 
 
 As per the requirements for the project, data munging is done by running the data_load_transform.py module. The module will load institution and loan data, left join loans data with institutions then create a loan_bucket categorical variable then dump a json version of the expanded data into `./data/processed` directory. 
@@ -187,7 +187,7 @@ To run the data munging module, go into the `./src` subdirectory and type the fo
 This will create a new json file in the `./data/processed` directory that contains the merged loan and institution data and additional column (loan_amount_bucket)
 
 
-#### Data Quality
+### Data Quality
 
 
 Data quality in this case is limited to quality reporting in this iteration of this product. Quality reporting is currently available for two columns in the expanded dataset (_Respondent_Name_TS_ and _Loan_Amount_000_)
@@ -196,11 +196,12 @@ The module checks for records with missing values for the selected variables, du
 
 To run the data quality module, navigate to the `./src` subdirectory and type the following in your terminal
 
-``` python data_quality.py ```
+⋅⋅⋅``` python data_quality.py ```
 
 The module will provide a summary of the quality issues for the day and export records with data quality issues in different files according to the issue type
 
-#### Analysis
+
+### Analysis and Visualization
 
 
 Analysis can be done by using jupyter notebook, first importing objects from `data_load_transform.py` and loading and transforming the data then importing `visuals.py` to find custom plotting functions that will use the data passed to them and plot a number of visualizations.
