@@ -10,25 +10,25 @@ LOAN_SCHEMA = {'Agency_Code': 'str',
                'Applicant_Income_000': 'str',
                'As_of_Year': 'int64',
                'Census_Tract_Number': 'str',
-               'Conforming_Limit_000': 'int64',
+               'Conforming_Limit_000': 'float64',
                'Conforming_Status': 'str',
                'Conventional_Conforming_Flag': 'str',
                'Conventional_Status': 'str',
                'County_Code': 'str',
                'County_Name': 'str',
-               'FFIEC_Median_Family_Income': 'int64',
+               'FFIEC_Median_Family_Income': 'float64',
                'Lien_Status_Description': 'str',
                'Loan_Amount_000': 'int64',
                'Loan_Purpose_Description': 'str',
                'Loan_Type_Description': 'str',
                'MSA_MD': 'str',
                'MSA_MD_Description': 'str',
-               'Number_of_Owner_Occupied_Units': 'int64',
+               'Number_of_Owner_Occupied_Units': 'float64',
                'Respondent_ID': 'str',
                'Sequence_Number': 'int64',
                'State': 'str',
                'State_Code': 'int64',
-               'Tract_to_MSA_MD_Income_Pct': 'int64'}
+               'Tract_to_MSA_MD_Income_Pct': 'float64'}
 INSTITUTION_SCHEMA = {'Agency_Code': 'str',
                       'As_of_Year': 'int64',
                       'Assets_000_Panel': 'int64',
@@ -98,7 +98,7 @@ class DataLoadTransform(object):
         elif x < 5000:
             return 'XL (1000,000-5000,000)'
         else:
-            return 'XXL (5,000,000+)'
+            return 'XXL (5,000,000)'
 
     def hmda_init(self):
         """

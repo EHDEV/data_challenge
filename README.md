@@ -11,20 +11,23 @@ This tool enables us to analyze HMDA data for the years 2012 to 2014 and gives u
 
 
 + data_challenge
-- data           
-- notebooks         
-- reports
-- data_quality
-- files.csv
-    - analysis.html 
-- src
-- data_load_transform.py
-- data_quality.py
-- visuals.py
-- .env
-- README.md
-- requirements.txt
-- environment.yml
+    - data 
+        - processed
+            - [file].json
+    - notebooks
+        - analysis.ipynb
+    - reports
+        - data_quality
+            -[files].csv
+        - analysis.html
+    - src
+        - data_load_transform.py
+        - data_quality.py
+        - visuals.py
+    - .env
+    - README.md
+    - requirements.txt
+    - environment.yml
 
 ## Data
 
