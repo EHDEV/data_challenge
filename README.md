@@ -20,7 +20,7 @@ The data for this project came from the Home Mortgage Disclosure Act reporting
 
 ### Code Organization
 
-├─ data_challenge
+├── data_challenge
     ├── data           
     ├── notebooks         
     ├── reports
@@ -69,15 +69,5 @@ Analysis can be done by using jupyter notebook, first importing objects from `da
  
  - Also, an html version of the analysis can be found under `./reports`
 
-
-
-
-
-
-
 --------
 
-
-* How to get started
-* Metadata
-* Requirements
