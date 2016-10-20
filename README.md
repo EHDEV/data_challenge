@@ -22,20 +22,21 @@ The data for this project came from the Home Mortgage Disclosure Act reporting
 
 
 + data_challenge
-   - data           
-   - notebooks         
-   - reports
-       - data_quality
-       - files.csv(txt)
-       - analysis.html 
-   - src
-       - data_load_transform.py
-       - data_quality.py
-       - visuals.py
-   - .env
-   - README.md
-   - requirements.txt
-   - environment.yml
+    - data           
+    - notebooks         
+    - reports
+        - data_quality
+        - files.csv
+        - analysis.html 
+    
+    - src
+        - data_load_transform.py
+        - data_quality.py
+        - visuals.py
+    - .env
+    - README.md
+    - requirements.txt
+    - environment.yml
     
 ## Getting Started
 
