@@ -7,6 +7,25 @@ _Analysis of HMDA data to understand home loans market in Washington DC and the 
 
 This tool enables us to analyze HMDA data for the years 2012 to 2014 and gives us insight on how Change Financial can enter the home loans market.
 
+## Code Organization
+
+
++ data_challenge
+- data           
+- notebooks         
+- reports
+- data_quality
+- files.csv
+    - analysis.html 
+- src
+- data_load_transform.py
+- data_quality.py
+- visuals.py
+- .env
+- README.md
+- requirements.txt
+- environment.yml
+
 ## Data
 
 The data for this project was obtained from the Consumer Financial Protection Bureau
@@ -141,30 +160,16 @@ Here is the schema of the expanded loans data.
   </tbody>
 </table>
 
-## Code Organization
-
-
-+ data_challenge
-- data           
-- notebooks         
-- reports
-- data_quality
-- files.csv
-    - analysis.html 
-- src
-- data_load_transform.py
-- data_quality.py
-- visuals.py
-- .env
-- README.md
-- requirements.txt
-- environment.yml
-
 
 ## Getting Started
 
 
 To get started, setup a new environment (preferably using anaconda) according to `./environment.yml` or `requirements.txt` file
+
+Using pip environment can be setup as follows,
+
+``` pip install -r requirements.txt```
+
 
 
 #### Data Munging
