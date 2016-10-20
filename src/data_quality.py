@@ -16,10 +16,10 @@ def check_missing(data, col):
     """
     if data[col].dtype in ['str', 'O']:
         nans_df = data[data[col].str.strip().str.len() <= 3][data[col].str.upper().str.contains('NA')]
-        nans = list(nans_df.index.values)
+        nans = nans_df.index.values
     else:
         nans = np.where(list(np.isnan(data[col])))[0]
-    return nans
+    return list(nans)
 
 
 def check_type(df, col):
@@ -75,10 +75,10 @@ def dq_report(data, col, data_name):
         file.write("Data Quality Report" + os.linesep)
         nans_list = check_missing(data, col)
         file.writelines("Records with missing {}: ".format(col))
-        file.writelines(str(len(nans_list)) if np.any(nans_list) else "{1} No missing {0} records {1}".format(
+        file.writelines(str(len(nans_list)) if np.any(nans_list) else "No missing {0} records {1}".format(
             col, os.linesep))
         duplicates_df = check_duplicate(data, data_name)
-        file.writelines("Duplicate records: ".format(
+        file.writelines("Duplicate records: {}".format(
             str(duplicates_df.shape[0])) if duplicates_df is not None else "No duplicate records" + os.linesep)
         if data[col].dtype in ['str', 'O']:
             col_new = data[col].str.len()

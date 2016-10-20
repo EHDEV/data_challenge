@@ -1,4 +1,0 @@
-Data Quality Report
-Records with missing Loan_Amount_000: 
- No missing Loan_Amount_000 records 
-Duplicate records: Outlier records: 7363
