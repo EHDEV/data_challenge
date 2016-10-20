@@ -196,7 +196,7 @@ The module checks for records with missing values for the selected variables, du
 
 To run the data quality module, navigate to the `./src` subdirectory and type the following in your terminal
 
-⋅⋅⋅``` python data_quality.py ```
+``` python data_quality.py ```
 
 The module will provide a summary of the quality issues for the day and export records with data quality issues in different files according to the issue type
 
