@@ -1,9 +1,8 @@
-Capital One Data Challenge
+Capital One Data Challenge - HMDA Data Analysis and Processing
 ==============================
 
-Analysis of HMDA data to understand home loans market in Washington DC and the surrounding area
+_Analysis of HMDA data to understand home loans market in Washington DC and the surrounding area_
 
-# Change Financial - HMDA Data Analysis and Processing
 ------------
 
 This tool enables us to analyze HMDA data for the years 2012 to 2014 and gives us insight on how Change Financial can enter the home loans market.
@@ -23,7 +22,7 @@ The following data are used for the analysis (as obtained from the metadata incl
   <tbody>
     <tr>
       <td>2012_to_2014_loans_data.csv</td>
-      <td>Data on home loans originated within the states where Change Financial Operates. <em>Notes: If you are matching provided data to archival loan data, you should know that we filtered for 1-4 family, owner-occupied home loans with an "originated" action type and that were secured by a first or subordinate lien. You can get more HMDA data from the National Archives or from the <a href="http://www.consumerfinance.gov/hmda/explore">online HMDA tool</a></em></td>
+      <td>Data on home loans originated within the states where Change Financial Operates.</td>
     </tr>
     <tr>
       <td>2012_to_2014_institutions_data.csv</td>
