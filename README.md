@@ -68,7 +68,7 @@ The module will provide a summary of the quality issues for the day and export r
 ##### Analysis
 
 
-... Analysis can be done by using jupyter notebook, first importing objects from `data_load_transform.py` and loading and transforming the data then importing `visuals.py` to find custom plotting functions that will use the data passed to them and plot a number of visualizations.
+*** Analysis can be done by using jupyter notebook, first importing objects from `data_load_transform.py` and loading and transforming the data then importing `visuals.py` to find custom plotting functions that will use the data passed to them and plot a number of visualizations.
 
 `./notebooks` directory has `analysis.ipynb` file with full analysis and plots. 
  
