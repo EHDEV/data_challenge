@@ -17,7 +17,6 @@ The data for this project came from the Home Mortgage Disclosure Act reporting
 #### Metadata
 
 
-
 ### Code Organization
 
 ├── LICENSE
@@ -64,22 +63,7 @@ The data for this project came from the Home Mortgage Disclosure Act reporting
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.testrun.or
 
-├── data_challenge
-│   ├── data           
-│   ├── notebooks         
-│   ├── reports
-│       ├── data_quality
-│       ├── files.csv(txt)
-│       └── analysis.html 
-│   ├── src
-│       ├── data_load_transform.py
-│       ├── data_quality.py
-│       └── visuals.py
-│   ├── .env
-│   ├── README.md
-│   ├── requirements.txt
-│   └── environment.yml
-    
+
 ### Getting Started
 
 To get started, setup a new environment (preferably using anaconda) according to `./environment.yml` or `requirements.txt` file
