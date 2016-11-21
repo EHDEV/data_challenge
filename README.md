@@ -1,4 +1,4 @@
-Capital One Data Challenge - HMDA Data Analysis and Processing
+Data Challenge - HMDA Data Analysis and Processing
 ==============================
 
 _Analysis of HMDA data to understand home loans market in Washington DC and the surrounding area_
